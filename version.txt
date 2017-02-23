@@ -1,2 +1,2 @@
 # OneOaaS Monitor Community Edition Version List
-0.1_Beta
+v0.1_alpha.1   
