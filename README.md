@@ -12,8 +12,22 @@
 - 后续版本会逐步发布graphtree等功能
 
 ### 使用说明
-- zabbix版本 >= 3.0.0
-- 配置文件 conf/app.conf
+- zabbix版本 >= 3.0.0 (2.X未经过测试，不保证能够使用)
+- 支持的平台
+    + windows/amd64
+    + linux/amd64
+    + darwin/amd64
+
+### 安装说明
+- Linux 系统的安装
+rpm -ivh rpm/oneoaas-monitor-ce-linux-amd64-0.1-1.x86_64.rpm
+修改配置文件/usr/share/oneoaas-monitor-ce/conf/app.conf
+/etc/init.d/oneoaas-monitor-ce start
+访问 http://IP或域名:4005端口
+
+- 其他平台分别执行二进制文件即可
+
+- 配置文件说明 conf/app.conf
 ```
 httpport 项目运行端口
 dbtype 数据库
@@ -23,10 +37,7 @@ dbhost 主机
 dbport 数据库端口
 dbname 数据库名称
 ```
-- 可执行文件版本 
-	+ windows/amd64
-	+ linux/amd64
-	+ darwin/amd64
+
 
 ### 界面截图
 ![dashboard](https://github.com/OneOaaS/monitor_ce/blob/master/shortcut/dashboard.png?raw=true)
