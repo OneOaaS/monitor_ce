@@ -1,5 +1,6 @@
 # OneOaaS-Monitor Community Edition （社区版）
-功能:故障展示大屏,替换Zabbix的Dashboard，适合在大屏上面展示故障
+功能:故障展示大屏,替换Zabbix的Dashboard，适合在大屏上面展示故障   
+本项目版本归OneOaaS所有，不遵循开源协议，但可以让所有企业免费使用，无需担心版权问题，如有更复杂需求，可以联系使用企业版  
 
 - [在线体验demo](http://monitor.community.oneoaas.com)
 
