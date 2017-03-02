@@ -1,4 +1,7 @@
 # OneOaaS-Monitor Community Edition （社区版）
+功能:故障展示大屏,替换Zabbix的Dashboard，适合在大屏上面展示故障
+
+- [在线体验demo](http://monitor.community.oneoaas.com)
 
 ### 功能概要
 - 数据采集速率
@@ -20,9 +23,11 @@
 
 ### 安装说明
 - Linux 系统的安装
+```
 rpm -ivh rpm/oneoaas-monitor-ce-linux-amd64-0.1-1.x86_64.rpm
 修改配置文件/usr/share/oneoaas-monitor-ce/conf/app.conf
 /etc/init.d/oneoaas-monitor-ce start
+```
 访问 http://IP或域名:4005端口
 
 - 其他平台分别执行二进制文件即可
@@ -37,7 +42,6 @@ dbhost 主机
 dbport 数据库端口
 dbname 数据库名称
 ```
-
 
 ### 界面截图
 ![dashboard](https://github.com/OneOaaS/monitor_ce/blob/master/shortcut/dashboard.png?raw=true)
@@ -54,4 +58,3 @@ dbname 数据库名称
 
 - 请联系 support#oneoaas.com(#替换成@)
 - 公司官网[www.oneoaas.com](http://www.oneoaas.com)
-- [在线体验](http://monitor.community.oneoaas.com)
