@@ -20,7 +20,7 @@
     + windows/amd64
     + linux/amd64
     + darwin/amd64
-
+- 注意:账号体系和Zabbix原来一致
 ### 安装说明
 - Linux 系统的安装
 ```
