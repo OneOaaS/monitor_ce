@@ -22,12 +22,6 @@
     + linux/amd64
     + darwin/amd64
 - 注意:账号体系和Zabbix原来一致
-- 文件md5
-```
-MD5 (oneoaas-monitor-ce-darwin-amd64-0.1.tar.gz) = 08fbeb6e65655f02b686c019893131d5
-MD5 (oneoaas-monitor-ce-linux-amd64-0.1.tar.gz) = 9bf94261e840e5b6e539050f2d5cf964
-MD5 (oneoaas-monitor-ce-windows-amd64-0.1.tar.gz) = 2170bc0156d4dece4114ad78012ea2cf
-```
 ### 安装说明
 - Linux 系统的安装
 ```
