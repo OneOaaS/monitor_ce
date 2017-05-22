@@ -1,6 +1,6 @@
 # OneOaaS-Monitor Community Edition （社区版）
 功能:故障展示大屏,替换Zabbix的Dashboard，适合在大屏上面展示故障   
-本项目版本归OneOaaS所有，不遵循开源协议，但可以让所有企业免费使用，无需担心版权问题，如有更复杂需求，可以联系使用企业版  
+本项目版权归OneOaaS所有，不遵循开源协议，但可以让所有企业免费使用，无需担心版权问题，如有更复杂需求，可以联系使用企业版  
 
 - [在线体验demo](http://monitor.community.oneoaas.com)
 
@@ -25,12 +25,13 @@
 ### 安装说明
 - Linux 系统的安装
 ```
-rpm -ivh rpm/oneoaas-monitor-ce-linux-amd64-0.1-1.x86_64.rpm
+wget https://raw.githubusercontent.com/OneOaaS/monitor_ce/master/v0.1_beta/rpm/oneoaas-monitor-ce-linux-amd64-0.1-1.x86_64.rpm
+rpm -ivh oneoaas-monitor-ce-linux-amd64-0.1-1.x86_64.rpm
 修改配置文件/usr/share/oneoaas-monitor-ce/conf/app.conf
 /etc/init.d/oneoaas-monitor-ce start
 ```
 访问 http://IP或域名:4005端口
-
+账号体系和Zabbix原来一致 如Admin/zabbix
 - 其他平台分别执行二进制文件即可
 
 - 配置文件说明 conf/app.conf
